@@ -24,7 +24,7 @@ def y():
         return data['url']
 
 @bot.command('duck')
-async def can_you_show_me_some_statistics(ctx):
+async def wiki(ctx):
     image_url = y()
     await ctx.send(image_url)
 
